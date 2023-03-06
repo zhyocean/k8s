@@ -10,9 +10,9 @@ import (
 	"io"
 	"io/ioutil"
 
-	metav1 "github.com/ericchiang/k8s/apis/meta/v1"
-	"github.com/ericchiang/k8s/runtime"
 	"github.com/golang/protobuf/proto"
+	metav1 "github.com/zhyocean/k8s/apis/meta/v1"
+	"github.com/zhyocean/k8s/runtime"
 )
 
 // Decode events from a watch stream.

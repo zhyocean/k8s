@@ -13,8 +13,8 @@ import (
     "fmt"
     "log"
 
-    "github.com/ericchiang/k8s"
-    corev1 "github.com/ericchiang/k8s/apis/core/v1"
+    "github.com/zhyocean/k8s"
+    corev1 "github.com/zhyocean/k8s/apis/core/v1"
 )
 
 func main() {
@@ -136,8 +136,8 @@ Client operations support user defined resources, such as resources provided by 
 
 ```go
 import (
-    "github.com/ericchiang/k8s"
-    metav1 "github.com/ericchiang/k8s/apis/meta/v1"
+    "github.com/zhyocean/k8s"
+    metav1 "github.com/zhyocean/k8s/apis/meta/v1"
 )
 
 type MyResource struct {
@@ -225,7 +225,7 @@ Out-of-cluster clients can be constructed by either creating an `http.Client` ma
 import (
     "io/ioutil"
 
-    "github.com/ericchiang/k8s"
+    "github.com/zhyocean/k8s"
 
     "github.com/ghodss/yaml"
 )
